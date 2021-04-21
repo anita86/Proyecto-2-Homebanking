@@ -156,7 +156,7 @@ function transferirDinero() {
 }
 
 function iniciarSesion() {
-  var inputClave = prompt("Ingrese su clave:");
+  var inputClave = prompt("Ingrese su clave: (1234)");
   var ingresoClave = parseInt(inputClave);
   if (validarPrompt(ingresoClave, inputClave) === false) {
     return iniciarSesion();
